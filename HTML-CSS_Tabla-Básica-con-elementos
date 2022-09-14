@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 02/2 - Tablas en HTML</title>
+    </head>
+    <body>
+        <h1>Ejercicio de tablas básico: </h1>
+        <hr>
+        <div>
+            <table>
+                <tr>
+                    <th>Título</th>
+                    <th>Autor</th>
+                    <th>Año de publicación</th>
+                    <th>Enlace a Amazon</th>
+                </tr>
+                <tr>
+                    <td>El enigma de la habitación 622</td>
+                    <td>Joël Dicker</td>
+                    <td>2020</td>
+                    <td><a href="https://www.amazon.es/enigma-habitaci%C3%B3n-622-Jo%C3%ABl-Dicker-ebook/dp/B087QS9GXJ/ref=sr_1_6?keywords=comprar+libros+online&qid=1663171677&sr=8-6">Pulsa aquí</a></td>
+                </tr>
+                <tr>
+                    <td>La última cripta</td>
+                    <td>Fernando Gamboa</td>
+                    <td>2018</td>
+                    <td><a href="https://www.amazon.es/%C3%9ALTIMA-CRIPTA-novela-Amazon-aventuras-ebook/dp/B07CNMTJ6Z/ref=sr_1_9?keywords=comprar+libros+online&qid=1663171677&sr=8-9">Pulsa aquí</a></td>
+                </tr>
+                <tr>
+                    <td>La Ciudad de Vapor</td>
+                    <td>Carlos Ruiz Zafón</td>
+                    <td>2020</td>
+                    <td><a href="https://www.amazon.es/Ciudad-Vapor-Autores-Espa%C3%B1oles-Iberoamericanos/dp/8408235001/ref=sr_1_12?keywords=comprar+libros+online&qid=1663171677&sr=8-12">Pulsa aquí</a></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
