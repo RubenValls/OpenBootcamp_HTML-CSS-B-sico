@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio de Introducción a HTML en OpenBootcamp</title>
+    </head>
+    <body>
+        <!--Este es mi primer comentario de dos líneas
+        Aprendiendo a documentar mi código con OpenBootcamp-->
+        <h1>Enlace a tres vídeos de Youtube</h1>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=cZeXXEaSTWE">¿El i9 12900k DESTROZA al RYZEN 9 5950x? Lo compruebo y...</a></li>
+            <li><a href="https://www.youtube.com/watch?v=ZgujU6k9Wag">TOP 5 MEJORES VIDEOJUEGOS Y CONSOLAS DE LA HISTORIA - alexelcapo</a></li>
+            <li><a href="https://www.youtube.com/watch?v=ZnAqM-mrVB0&t=2s">La MEJOR "COSA" de TODOS los SOULS || Incluido Elden Ring</a></li>
+        </ul>
+    </body>
+</html>
