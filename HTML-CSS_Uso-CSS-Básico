@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganando precisión con los selectores en CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="titulo" class="encabezado">
+        <p>Lista de compra</p>
+    </div>
+    <div>
+        <ul>
+            <li id="el1">Macarrones</li>
+            <li id="el2">Arroz</li>
+            <li id="el3">Manzanas</li>
+            <li id="el4">Pan</li>
+            <li id="el5">Cereales</li>
+        </ul>
+    </div>
+    <div>
+        <ol>
+            <li id="el1">Consum</li>
+            <li id="el2">Economy Cash</li>
+            <li id="el3">Mercadona</li>
+            <li id="el4">Dia</li>
+            <li id="el5">Vidal</li>
+        </ol>
+    </div>
+</body>
+</html>
+
+
+
+<!-- styles.css
+
+#el1{
+    color: red;
+}
+
+ul>#el1{
+    font-size: 2rem;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.encabezado{
+    color: brown;
+}
+
+-->
