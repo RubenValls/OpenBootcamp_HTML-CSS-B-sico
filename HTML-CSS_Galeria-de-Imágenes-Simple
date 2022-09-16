@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disposición de elementos en CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-image">
+        <img class="image1" src="https://cdn-3.expansion.mx/dims4/default/5fd17a8/2147483647/strip/true/crop/3864x2576+0+0/resize/1200x800!/format/webp/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F33%2F38%2F425ea19f487680315036da9ef5f3%2Fistock-1334436084.jpg" alt="imagen-ps4">
+    </div>
+    <div class="gallery">
+        <img class="imagen-gallery" src="https://www.lavanguardia.com/files/article_main_microformat/files/fp/uploads/2022/02/08/620280c33764b.r_d.3246-2700-0.jpeg" alt="mandops4">
+        <img class="imagen-gallery" src="https://media.ambito.com/p/6395e6065b0c2a75923afd40d72c577a/adjuntos/239/imagenes/039/902/0039902430/730x0/smart/videojuegosjpg.jpg" alt="mandoxbox">
+        <img class="imagen-gallery" src="https://cdn-3.expansion.mx/dims4/default/5fd17a8/2147483647/strip/true/crop/3864x2576+0+0/resize/1200x800!/format/webp/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F33%2F38%2F425ea19f487680315036da9ef5f3%2Fistock-1334436084.jpg" alt="mandoyteclado">
+        <img class="imagen-gallery" src="https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2022/07/carrousell_1920x1080_2-scaled.jpg?fit=2560%2C1440&quality=50&strip=all&ssl=1" alt="conjuntomandos">
+        <img class="imagen-gallery" src="https://st1.uvnimg.com/b5/96/e7242dec45879b4f93a25e405985/istock-1324673294.jpg" alt="jugandoxbox">
+        <img class="imagen-gallery" src="https://www.welivesecurity.com/wp-content/uploads/2021/08/Ataques-compa%C3%B1%C3%ADas-videojuegos-por-qu%C3%A9-son-blanco-atractivo.jpg" alt="setuppc">
+    </div>
+</body>
+</html>
+
+
+<!-- styles.css -->
+
+.main-image{
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+    height: 500px;
+}
+
+.image1{
+    width: 100vw;
+    height: 100%;
+}
+
+.gallery{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.imagen-gallery{
+    width: 300px;
+    height: 300px;
+}
+
+.imagen-gallery:hover{
+    opacity: 0.5;
+    transform: scale(1.5);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.imagen-gallery:not(:hover){
+    opacity: 1;
+    transform: scale(1);
+    transition: 1.5s;
+    
+}
