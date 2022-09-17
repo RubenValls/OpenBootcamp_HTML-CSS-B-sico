@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores, pseudo-clases y pseudo-elementos en CSS</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="lugar-boton">
+        <button class="boton"></button>
+    </div>
+</body>
+</html>
+
+<!-- styles2.css -->
+
+.lugar-boton{
+    height: 100vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.boton::before{
+    content: 'Pasa por encima';
+}
+
+.boton{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    font-size: larger;
+    color: black;
+}
+
+.boton:hover{
+    content: none;
+    color:  white;
+    background-color: darkgreen;
+    font-size: larger;
+}
+
+.boton:not(:hover){
+    background-color: grey;
+    font-size: larger;
+    color: black;
+}
