@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Responsive con CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="seccion1">
+            <span class="elemento1">E1</span>
+            <span class="elemento2">E2</span>
+            <span class="elemento3">E3</span>
+        </div>
+        <div class="seccion2">DERECHA</div>
+    </div>
+</body>
+</html>
+
+<!-- styles.css
+
+    @media (min-width:641px){
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .seccion1{
+        background-color: red;
+        width: 50%;
+        display: grid;
+        justify-content: center;
+        gap: 2rem;
+        padding: 1rem;
+        border: 0.5rem solid black;
+    }
+    
+    .seccion2{
+        display: flex;
+        background-color: blue;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        border: 0.5rem solid black;
+    }
+}
+
+@media (max-width: 640px){
+    .contenedor{
+        display: flex;
+        flex-direction:column;
+        margin: 0;
+    }
+
+    .seccion1{
+        position: absolute;
+        display:flex;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .seccion2{
+        top: 0;
+        display: flex;
+        width: 100%;
+        background-color: blue;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+-->
